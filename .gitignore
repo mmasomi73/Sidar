@@ -182,3 +182,4 @@ pythonenv*
 outs/*
 res/*
 captcha/*
+*.png
