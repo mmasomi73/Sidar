@@ -104,7 +104,7 @@ def predict(modelpath, imgData):
 
 if __name__ == '__main__':
     # path = 'test1.png'
-    path = 'captcha/1624173482639230700.png'
+    path = 'captcha/1626955196587719700.png'
     model = 'model.h5'
     borders = findBorderContours(path)
     imgData = transMNIST(path, borders)

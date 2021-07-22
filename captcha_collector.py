@@ -10,6 +10,7 @@ class CaptchaCollector:
         self.number_of_captcha = number_of_captcha
         self.path = path
         self.create_output_path()
+        self.get_captcha()
 
     def get_captcha_hash(self):
         url = "https://sida.medu.ir/api/Captcha/GetCaptcha"
@@ -42,3 +43,6 @@ class CaptchaCollector:
         print("\t+-----------------------------------+")
         print("\t|   Fetching Complete ...           |")
         print("\t+-----------------------------------+")
+
+
+cap = CaptchaCollector(20)

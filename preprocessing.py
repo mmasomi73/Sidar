@@ -23,7 +23,7 @@ class Preprocessing:
 
 prc = Preprocessing()
 # prc.canny_edge_detector('captcha/1624174506165708900.png')
-img = cv.imread('captcha/1624174506165708900.png', 0)
+img = cv.imread('captcha/1626955196587719700.png', 0)
 edges = cv.Canny(img, 100, 100)
 plt.subplot(121), plt.imshow(img, cmap='gray')
 plt.title('Original Image'), plt.xticks([]), plt.yticks([])
