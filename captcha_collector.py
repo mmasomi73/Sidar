@@ -6,7 +6,7 @@ import requests
 
 
 class CaptchaCollector:
-    def __init__(self, number_of_captcha=14, path='captcha'):
+    def __init__(self, number_of_captcha=360, path='captcha'):
         self.number_of_captcha = number_of_captcha
         self.path = path
         self.create_output_path()
@@ -45,4 +45,4 @@ class CaptchaCollector:
         print("\t+-----------------------------------+")
 
 
-cap = CaptchaCollector(20)
+cap = CaptchaCollector()
